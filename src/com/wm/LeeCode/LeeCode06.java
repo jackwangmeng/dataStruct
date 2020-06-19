@@ -1,4 +1,4 @@
-package com.wm.dataStruct;
+package com.wm.LeeCode;
 
 import java.util.ArrayList;
 import java.util.List;

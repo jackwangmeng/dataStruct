@@ -1,4 +1,4 @@
-package com.wm.dataStruct;
+package com.wm.LeeCode;
 
 public class LeeCode08 {
     public int myAtoi(String str){

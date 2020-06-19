@@ -1,4 +1,4 @@
-package com.wm.dataStruct;
+package com.wm.LeeCode;
 
 
 enum Result {

@@ -1,4 +1,4 @@
-package com.wm.dataStruct;
+package com.wm.LeeCode;
 
 public class LeeCode12 {
     int[] values = {1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1};

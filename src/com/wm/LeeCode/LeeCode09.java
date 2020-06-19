@@ -1,4 +1,4 @@
-package com.wm.dataStruct;
+package com.wm.LeeCode;
 
 public class LeeCode09 {
     public boolean isPalindrome(int x) {
