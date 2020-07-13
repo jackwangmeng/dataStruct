@@ -5,7 +5,7 @@ public class LeeCode1343 {
         int sum = 0 , result = 0;
         int sumTarget = k * threshold;
         for (int i = 0; i < k; i++){
-            sun += arr[i];
+            sum += arr[i];
         }
         int addr = sum - sumTarget;
         if (addr >= 0){
