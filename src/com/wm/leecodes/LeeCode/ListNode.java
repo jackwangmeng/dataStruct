@@ -6,6 +6,8 @@ package com.wm.leecodes.LeeCode;
  * @date 2020/7/20 9:06
  */
 public class ListNode {
+
+    
     int val;
     ListNode next;
     ListNode() {}
