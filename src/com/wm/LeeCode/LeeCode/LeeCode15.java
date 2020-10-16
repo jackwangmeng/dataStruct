@@ -1,4 +1,4 @@
-package com.wm.LeeCode;
+package com.wm.LeeCode.LeeCode;
 
 import java.nio.file.attribute.UserPrincipalNotFoundException;
 import java.util.ArrayList;

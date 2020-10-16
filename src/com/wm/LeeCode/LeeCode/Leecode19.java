@@ -1,4 +1,4 @@
-package com.wm.LeeCode;
+package com.wm.LeeCode.LeeCode;
 
 public class Leecode19 {
     class Solution {
