@@ -7,7 +7,7 @@ import java.time.LocalDate;
  * @Package com.wm.leecode.employmanage
  * @date 2020/9/1 16:17
  */
-public class Employee {
+public class Employee implements Comparable<Employee> {
     private String name;
     private double salary;
     private LocalDate hireDay;
@@ -48,5 +48,10 @@ public class Employee {
     public void raiseSalry(double byPercent) {
         double raise = salary * byPercent / 100;
         salary += raise;
+    }
+
+    @Override
+    public int compareTo(Employee other) {
+        return Double.compare(salary,other.salary);
     }
 }
