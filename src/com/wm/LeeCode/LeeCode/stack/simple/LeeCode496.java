@@ -1,6 +1,5 @@
-package com.wm.LeeCode.LeeCode.stack;
+package com.wm.LeeCode.LeeCode.stack.simple;
 
-import javax.swing.plaf.synth.SynthTextAreaUI;
 import java.util.*;
 
 /**

@@ -1,4 +1,4 @@
-package com.wm.LeeCode.LeeCode.stack;
+package com.wm.LeeCode.LeeCode.stack.simple;
 
 import java.util.HashSet;
 import java.util.Set;

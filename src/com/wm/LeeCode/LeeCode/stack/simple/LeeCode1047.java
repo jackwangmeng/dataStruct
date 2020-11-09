@@ -1,8 +1,5 @@
-package com.wm.LeeCode.LeeCode.stack;
+package com.wm.LeeCode.LeeCode.stack.simple;
 
-import javax.management.Query;
-import java.util.LinkedList;
-import java.util.Queue;
 import java.util.Stack;
 
 /**
