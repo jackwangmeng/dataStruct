@@ -1,6 +1,8 @@
 package com.wm.LeeCode.LeeCode;
 
 import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
  * @author wm
@@ -9,20 +11,35 @@ import java.util.Arrays;
  */
 public class LeeCode41 {
     public int firstMissingPositive(int[] nums) {
-        if (nums.length == 0){
-            return 0;
+        /*int len = nums.length;
+        int[] res = new int[len + 1];
+
+        for (int i = 0; i < len; i++){
+            if (nums[i] > 0 && nums[i] <= len){
+                res[nums[i]]++;
+            }
         }
-        Arrays.sort(nums);
-        for (int i = 0; i < nums.length; i++){
-            if (nums[i] < 0){
-                continue;
-            }else if (nums[i] == i){
-                continue;
-            }else {
+
+        for (int i = 1; i < len + 1; i++){
+            if (res[i] == 0){
                 return i;
             }
         }
-        return nums[nums.length - 1] + 1;
+        return len + 1;*/
+
+        int len = nums.length;
+
+        Set<Integer> hashSet = new HashSet<>();
+        for (Integer num : nums){
+            hashSet.add(num);
+        }
+
+        for (int i = 0; i <= len; i++){
+            if (!hashSet.contains(i)){
+                return i;
+            }
+        }
+        return len + 1;
     }
 
     public static void main(String[] args) {
