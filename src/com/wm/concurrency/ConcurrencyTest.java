@@ -1,7 +1,7 @@
 package com.wm.concurrency;
 
 public class ConcurrencyTest {
-    private static final long count = 100001;
+    private static final long count = 1000000001;
 
     public static void main(String[] args) throws InterruptedException {
         concurrency();
