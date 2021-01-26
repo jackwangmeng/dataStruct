@@ -1,6 +1,5 @@
 package com.wm.mysqlconnector.controller;
 
-import com.rabbitmq.client.*;
 import com.wm.mysqlconnector.entity.User;
 import com.wm.mysqlconnector.service.UserService;
 import lombok.SneakyThrows;
@@ -63,24 +62,24 @@ public class UserController {
         logger.info("获取用户信息：{}", user.toString());
     }
 
-    @SneakyThrows
-    public static Channel createChannel() {
-        //创建连接工厂
-        ConnectionFactory factory = new ConnectionFactory();
-        //设置RabbitMQ服务应用信息
-        //服务默认端口5672安装启动启动
-        factory.setHost("localhost");
-        factory.setPort(5672);
-        factory.setUsername("guest");
-        factory.setPassword("guest");
-        //实例化连接
-        Connection connection = factory.newConnection();
-        //获取信道实例
-        Channel channel = connection.createChannel();
-        return channel;
-    }
+//    @SneakyThrows
+//    public static Channel createChannel() {
+//        //创建连接工厂
+//        ConnectionFactory factory = new ConnectionFactory();
+//        //设置RabbitMQ服务应用信息
+//        //服务默认端口5672安装启动启动
+//        factory.setHost("localhost");
+//        factory.setPort(5672);
+//        factory.setUsername("guest");
+//        factory.setPassword("guest");
+//        //实例化连接
+//        Connection connection = factory.newConnection();
+//        //获取信道实例
+//        Channel channel = connection.createChannel();
+//        return channel;
+//    }
 
-    @SneakyThrows
+    /*@SneakyThrows
     public static void publishMessage(Channel channel, byte[] message) throws IOException {
         //实例化消息服务组价
         String exchangeName = "exchangeName";
@@ -117,6 +116,6 @@ public class UserController {
     public static void destroyConnection(Connection connection, Channel channel) {
         channel.close();
         connection.close();
-    }
+    }*/
 
 }
