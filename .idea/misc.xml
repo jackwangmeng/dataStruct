@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/mysql-connector/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-all/pom.xml" />
+        <option value="$PROJECT_DIR$/interview/pom.xml" />
       </list>
     </option>
   </component>

@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dataStruct.iml" filepath="$PROJECT_DIR$/dataStruct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/interview/interview.iml" filepath="$PROJECT_DIR$/interview/interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysql-connector/mysql-connector.iml" filepath="$PROJECT_DIR$/mysql-connector/mysql-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netty-all/netty-all.iml" filepath="$PROJECT_DIR$/netty-all/netty-all.iml" />
     </modules>
   </component>
 </project>
