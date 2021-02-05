@@ -7,18 +7,24 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="netty-all" />
         <module name="mysql-connector" />
+        <module name="interview" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="interview" target="1.8" />
       <module name="mysql-connector" target="1.8" />
+      <module name="netty-all" target="1.8" />
       <module name="redis" target="1.5" />
       <module name="redis (1)" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="interview" options="-parameters" />
       <module name="mysql-connector" options="-parameters" />
+      <module name="netty-all" options="-parameters" />
       <module name="redis (1)" options="-parameters" />
     </option>
   </component>
