@@ -55,6 +55,11 @@
             <version>29.0-android</version>
             <scope>compile</scope>
         </dependency>
+        <dependency>
+            <groupId>org.openjdk.jol</groupId>
+            <artifactId>jol-cli</artifactId>
+            <version>0.14</version>
+        </dependency>
     </dependencies>
 
     <build>
