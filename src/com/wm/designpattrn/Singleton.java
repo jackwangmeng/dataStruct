@@ -21,7 +21,7 @@ public class Singleton {
     private static Singleton singleton_NotSafe = null;
 
     //限制产生多个对象
-    private Singleton(){
+    public Singleton(){
     }
 
     //通过产生该方法获取实例对象
