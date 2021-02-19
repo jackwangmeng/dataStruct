@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/interview/interview.iml" filepath="$PROJECT_DIR$/interview/interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysql-connector/mysql-connector.iml" filepath="$PROJECT_DIR$/mysql-connector/mysql-connector.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-all/netty-all.iml" filepath="$PROJECT_DIR$/netty-all/netty-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
     </modules>
   </component>
 </project>
