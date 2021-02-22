@@ -12,6 +12,7 @@ buildNumber.properties
 *.class
 
 .idea/
+.idea/libraries/
 
 logs/
 *.log
