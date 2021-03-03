@@ -60,6 +60,10 @@
             <artifactId>jol-cli</artifactId>
             <version>0.14</version>
         </dependency>
+        <dependency>
+            <groupId>redis.clients</groupId>
+            <artifactId>jedis</artifactId>
+        </dependency>
     </dependencies>
 
     <build>
