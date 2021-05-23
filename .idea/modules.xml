@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/quick-crawler-master/berkely/berkely.iml" filepath="$PROJECT_DIR$/quick-crawler-master/berkely/berkely.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-crawler-master/common/common.iml" filepath="$PROJECT_DIR$/quick-crawler-master/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-crawler-master/core/core.iml" filepath="$PROJECT_DIR$/quick-crawler-master/core/core.iml" />
       <module fileurl="file://$PROJECT_DIR$/datastruct.iml" filepath="$PROJECT_DIR$/datastruct.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-crawler-master/demo/demo.iml" filepath="$PROJECT_DIR$/quick-crawler-master/demo/demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/interview/interview.iml" filepath="$PROJECT_DIR$/interview/interview.iml" />
       <module fileurl="file://$PROJECT_DIR$/jwt/jwt.iml" filepath="$PROJECT_DIR$/jwt/jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/mongodbtest/mongodb.iml" filepath="$PROJECT_DIR$/mongodbtest/mongodb.iml" />
       <module fileurl="file://$PROJECT_DIR$/mysql-connector/mysql-connector.iml" filepath="$PROJECT_DIR$/mysql-connector/mysql-connector.iml" />
       <module fileurl="file://$PROJECT_DIR$/netty-all/netty-all.iml" filepath="$PROJECT_DIR$/netty-all/netty-all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/quick-crawler-master/quick-crawler.iml" filepath="$PROJECT_DIR$/quick-crawler-master/quick-crawler.iml" />
       <module fileurl="file://$PROJECT_DIR$/rabbitmq/rabbitmq.iml" filepath="$PROJECT_DIR$/rabbitmq/rabbitmq.iml" />
     </modules>
   </component>

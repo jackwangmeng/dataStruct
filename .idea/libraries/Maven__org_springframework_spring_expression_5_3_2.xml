@@ -1,13 +1,13 @@
 <component name="libraryTable">
-  <library name="Maven: org.springframework:spring-expression:5.3.2">
+  <library name="Maven: org.apache.pdfbox:jempbox:1.8.4">
     <CLASSES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.2/spring-expression-5.3.2.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.2/spring-expression-5.3.2-javadoc.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$MAVEN_REPOSITORY$/org/springframework/spring-expression/5.3.2/spring-expression-5.3.2-sources.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/pdfbox/jempbox/1.8.4/jempbox-1.8.4-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

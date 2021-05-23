@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/jwt/pom.xml" />
         <option value="$PROJECT_DIR$/mongodbtest/pom.xml" />
+        <option value="$PROJECT_DIR$/quick-crawler-master/pom.xml" />
       </list>
     </option>
   </component>
